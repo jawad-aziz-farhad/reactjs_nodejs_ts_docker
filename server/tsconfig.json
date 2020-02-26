@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "sourceMap": true,
+        "typeRoots": ["./node_modules/@types"],
+        "types": ["jest", "node"],
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "outDir": "./dist",
+        "rootDir": "./src/"
+    },
+    "exclude": [
+        "**/__snapshots__/*",
+        "./dist/*",
+    ]
+}
